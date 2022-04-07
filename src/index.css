@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background-color: #fbfbfb;
+	color: #666;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.divider {
+	width: 100%;
+	height: 0.2px;
+	background-color: #e8e8e8;
+	margin: auto;
+}
+
+.heading-color {
+	color: #141414;
+}
