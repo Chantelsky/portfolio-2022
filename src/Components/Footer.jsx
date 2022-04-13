@@ -34,7 +34,6 @@ const socialMediaIcons = [
 ]
 
 const Footer = () => {
-  console.log('test')
   return (
     <div className="flex flex-row justify-center">
       <div className="flex flex-row w-100 mt-8 mb-5 w-3/5 justify-between">
