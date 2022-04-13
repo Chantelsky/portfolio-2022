@@ -3,7 +3,7 @@ import gameIcon from "../Assets/gameIcon.svg"
 import githubIcon from "../Assets/githubIcon.svg"
 import twitterIcon from "../Assets/twitterIcon.svg"
 import linkedinIcon from "../Assets/linkedinIcon.svg"
-import hashnode from '../Assets/hashnode.svg'
+import hashnode from "../Assets/hashnode.svg"
 
 const socialMediaIcons = [
   {
@@ -34,7 +34,7 @@ const socialMediaIcons = [
 ]
 
 const Footer = () => {
-  // console.log(socialMediaIcons)
+  console.log('test')
   return (
     <div className="flex flex-row justify-center">
       <div className="flex flex-row w-100 mt-8 mb-5 w-3/5 justify-between">
