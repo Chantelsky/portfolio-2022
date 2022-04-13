@@ -23,19 +23,19 @@ const Skills = () => {
   ];
   return (
     <>
-      <p className='heading-color text-black text-2xl font-semibold mb-4 mt-8'>
+      <p className="heading-color text-black text-2xl font-semibold mb-4 mt-8">
         Skills
       </p>
-      <div className='flex flex-row overflow-hidden flex-wrap text-sm mb-10'>
+      <div className="flex flex-row overflow-hidden flex-wrap text-sm mb-10">
         {skillList.map((skill) => {
           return (
             <ul key={skill}>
-              <li className='border border-black-300 ml-2 mb-2 p-1' key={skill}>{skill}</li>
+              <li className="border border-black-300 ml-2 mb-2 p-1" key={skill}>{skill}</li>
             </ul>
           );
         })}
       </div>
-      <div className='divider'></div>
+      <div className="divider"></div>
     </>
   );
 };
