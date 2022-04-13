@@ -3,35 +3,48 @@ import gameIcon from "../Assets/gameIcon.svg"
 import githubIcon from "../Assets/githubIcon.svg"
 import twitterIcon from "../Assets/twitterIcon.svg"
 import linkedinIcon from "../Assets/linkedinIcon.svg"
+import hashnode from '../Assets/hashnode.svg'
+
+const socialMediaIcons = [
+  {
+    name: "github",
+    link: "https://github.com/Chantelsky",
+    image: githubIcon,
+  },
+  {
+    name: "hashnode",
+    link: "https://chantelsky.hashnode.dev/",
+    image: hashnode,
+  },
+  {
+    name: "itchio",
+    link: "https://chantelsky.itch.io/",
+    image: gameIcon,
+  },
+  {
+    name: "twitter",
+    link: "https://twitter.com/chantelskydev",
+    image: twitterIcon,
+  },
+  {
+    name: "linkedin",
+    link: "https://www.linkedin.com/in/chantel-laver-2805a9189/",
+    image: linkedinIcon,
+  }
+]
 
 const Footer = () => {
+  // console.log(socialMediaIcons)
   return (
     <div className="flex flex-row justify-center">
-      <div className="flex flex-row w-100 mt-8 w-3/5 justify-between">
-        <a href="https://chantelsky.itch.io/" target="_blank" rel="noreferrer">
-          <img src={gameIcon} alt="itchio" />
-        </a>
-        <a
-          href="https://github.com/Chantelsky"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="github" />
-        </a>
-        <a
-          href="https://twitter.com/chantelskydev"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={twitterIcon} alt="twitter" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/chantel-laver-2805a9189/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={linkedinIcon} alt="linkedin" />
-        </a>
+      <div className="flex flex-row w-100 mt-8 mb-5 w-3/5 justify-between">
+        {socialMediaIcons.map((icon) => {
+          return (
+            <a href={icon.link} target="_blank" rel="noopener noreferrer" key={icon.name}>
+              <img src={icon.image} alt={icon.name} className="w-8 h-8" />
+              </a>
+          )
+        })}
       </div>
     </div>
   )

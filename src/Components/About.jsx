@@ -35,7 +35,9 @@ const About = () => {
               IndieDB. Along with programming/scripting, 3D art, rigging and
               animation.
             </p>
-            <p className="mt-4">add more</p>
+            <p className="mt-4">Since graduating from university, I started focusing on software engineering and I am currently in the process of building a game.</p>
+            <p className="mt-4">When I am not coding, I'm spending time with my dog - Shadow, playing video games and working out.</p>
+            <p className="mt-4">Games I'm currently enjoying are: League Of Legends (summoners rift and teamfight tactics), phasmaphobia and a bit of Stardew Valley</p>
           </div>
         </div>
         <div>
@@ -46,11 +48,11 @@ const About = () => {
                 return (
                   <>
                     <ul className="mb-5 leading-relaxed" key={experience.title}>
-                      <li className="font-semibold heading-color">
+                      <li className="font-semibold heading-color" key={experience.title}>
                         {experience.title}
                       </li>
-                      <li>{experience.job}</li>
-                      <li>{experience.date}</li>
+                      <li key={experience.job}>{experience.job}</li>
+                      <li key={experience.date}>{experience.date}</li>
                     </ul>
                   </>
                 )

@@ -29,8 +29,8 @@ const Skills = () => {
       <div className='flex flex-row overflow-hidden flex-wrap text-sm mb-10'>
         {skillList.map((skill) => {
           return (
-            <ul>
-              <li className='border border-black-300 ml-2 mb-2 p-1'>{skill}</li>
+            <ul key={skill}>
+              <li className='border border-black-300 ml-2 mb-2 p-1' key={skill}>{skill}</li>
             </ul>
           );
         })}
