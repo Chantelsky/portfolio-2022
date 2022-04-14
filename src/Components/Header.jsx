@@ -12,15 +12,15 @@ const Header = () => {
             className="rounded-full scale-50 bg-contain w-96"
           />
         </div>
-        <div className="text-center">
+        <div className="text-center lg:text-left">
           <div className="heading-color text-3xl font-semibold leading-relaxed">
             <p>Hello! I'm Chantel</p>
             <p>A Software Engineer</p>
           </div>
-          <div className="mb-8 lg:flex lg:flex-col lg:mt-1 lg:text-sm">
+          <div className="mb-8 lg:flex lg:flex-col lg:mt-1 lg:text-sm lg:mb-5">
             <p>I am passionate about building virtual experiences, </p>
             <p>learning new tools and programming languages.</p>
-            <div className="mt-5 lg:mt-0">
+            <div className="mt-5 lg:mt-0 lg:mt-5">
             <a
               href="mailto:chantel.sky@protonmail.com"
               className="text-black font-semibold"
