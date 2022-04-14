@@ -21,8 +21,8 @@ const About = () => {
 
   return (
     <>
-      <div className="flex flex-row items-baseline mt-14 mb-10">
-        <div className="flex-1 mr-20">
+      <div className="flex flex-col lg:flex-row lg:items-baseline lg:mt-14 lg:mb-10 lg:p-0 p-5 lg:mt-14 mt-5">
+        <div className="flex-1 lg:mr-20">
           <p className="heading-color text-black text-2xl font-semibold mb-4">
             About Me
           </p>
@@ -35,15 +35,15 @@ const About = () => {
               IndieDB. Along with programming/scripting, 3D art, rigging and
               animation.
             </p>
-            <p className="mt-4">Since graduating from university, I started focusing on software engineering and I am currently in the process of building a game.</p>
+            <p className="mt-4">Since graduating from university, I started focusing on software engineering and I am currently in the process of building a game in unreal engine.</p>
             <p className="mt-4">When I am not coding, I'm spending time with my dog - Shadow, playing video games and working out.</p>
             <p className="mt-4">Games I'm currently enjoying are: League Of Legends (summoners rift and teamfight tactics), phasmaphobia and a bit of Stardew Valley</p>
           </div>
         </div>
         <div>
           <div>
-            <p className="heading-color  text-xl mb-4">Past Experience</p>
-            <div className="text-sm">
+            <p className="heading-color text-xl lg:mb-4 mt-5 lg:mt-0">Past Experience</p>
+            <div className="text-sm pt-2 lg:pt-0">
               {pastExperience.map((experience) => {
                 return (
                   <>

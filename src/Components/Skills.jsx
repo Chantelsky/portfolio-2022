@@ -23,10 +23,10 @@ const Skills = () => {
   ];
   return (
     <>
-      <p className="heading-color text-black text-2xl font-semibold mb-4 mt-8">
+      <p className="heading-color text-black text-2xl font-semibold lg:mb-4 lg:mt-8 mt-5 p-5 lg:p-0">
         Skills
       </p>
-      <div className="flex flex-row overflow-hidden flex-wrap text-sm mb-10">
+      <div className="flex flex-row overflow-hidden flex-wrap text-sm mb-10 w-11/12 lg:w-full">
         {skillList.map((skill) => {
           return (
             <ul key={skill}>
