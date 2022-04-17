@@ -37,7 +37,7 @@ const About = () => {
             </p>
             <p className="mt-4">Since graduating from university, I started focusing on software engineering and I am currently in the process of building a game in unreal engine.</p>
             <p className="mt-4">When I am not coding, I'm spending time with my dog - Shadow, playing video games and working out.</p>
-            <p className="mt-4">Games I'm currently enjoying are: League Of Legends (summoners rift and teamfight tactics), phasmaphobia and a bit of Stardew Valley</p>
+            <p className="mt-4">Games I'm currently enjoying are: League Of Legends (summoners rift and teamfight tactics), Phasmaphobia and Stardew Valley</p>
           </div>
         </div>
         <div>
