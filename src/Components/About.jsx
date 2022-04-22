@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div>
           <div>
-            <p className="heading-color text-xl lg:mb-4 mt-5 lg:mt-0">Past Experience</p>
+            <p className="heading-color font-semibold text-xl lg:mb-4 mt-5 lg:mt-0">Past Experience</p>
             <div className="text-sm pt-2 lg:pt-0">
               {pastExperience.map((experience) => {
                 return (

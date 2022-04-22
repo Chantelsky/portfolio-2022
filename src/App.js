@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import { BlogInfo } from "./Components/BlogInfo";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Skills />
       <Projects />
+      <BlogInfo/>
       <Footer/>
     </div>
   );

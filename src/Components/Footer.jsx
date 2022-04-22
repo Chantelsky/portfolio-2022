@@ -35,7 +35,7 @@ const socialMediaIcons = [
 
 const Footer = () => {
   return (
-    <div className="flex flex-row justify-center">
+    <div className="flex flex-column justify-center">
       <div className="flex flex-row w-100 mt-8 mb-5 w-3/5 justify-between w-5/6 lg:w-full">
         {socialMediaIcons.map((icon) => {
           return (
